@@ -4,7 +4,7 @@ import Error from "next/error"
 // Store Strapi Global object in context
 export const GlobalContext = createContext({})
 import Layout from "@/components/Layout"
-import { fetchGlobalData } from "utils/index"
+import { fetchGlobalData } from "@/utils/index"
 import "@/styles/globals.scss"
 
 function MyApp({ Component, pageProps }) {
@@ -14,10 +14,12 @@ function MyApp({ Component, pageProps }) {
     return <Error statusCode={404} />
   }
 
+  const fonts = [Bitter, Roboto];
+
   return (
     <>
       <GlobalContext.Provider value={global}>
-        <Layout global={global}>
+        <Layout className={fonts.className} global={global}>
           <Component {...pageProps} />
         </Layout>
       </GlobalContext.Provider>
