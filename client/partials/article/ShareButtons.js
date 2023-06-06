@@ -1,3 +1,4 @@
+"use client"; // This is a client component 👈🏽
 import React, { useState, useEffect } from "react";
 import styles from "@/styles/components/shareButtons.module.scss";
 import { useRouter } from "next/router";

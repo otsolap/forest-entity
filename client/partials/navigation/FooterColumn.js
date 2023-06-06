@@ -1,3 +1,4 @@
+"use client"; // This is a client component 👈🏽
 import React, { useEffect, useRef } from "react"
 import useToggle from "@/hooks/useToggleState"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"

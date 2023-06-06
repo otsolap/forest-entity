@@ -3,7 +3,7 @@ import Blocks from "@/components/Blocks";
 import CustomLink from "@/partials/util/CustomLink";
 
 const Header= ({ navigation }) => {
-  const global = navigation.data.attributes
+  const global = navigation.attributes
   const brand = { href: '/', title: global.title ?? null}
   return (
     <>

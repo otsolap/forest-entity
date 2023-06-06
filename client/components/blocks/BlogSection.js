@@ -1,3 +1,4 @@
+"use client"; // This is a client component 👈🏽
 import { useState, useEffect } from "react";
 import styles from "@/styles/components/blog.module.scss";
 import BlogItem from "partials/blocks/BlogItem";

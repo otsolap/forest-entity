@@ -1,3 +1,4 @@
+"use client"; // This is a client component 👈🏽
 import React, { useRef } from 'react';
 import axios from 'axios';
 import Inputs from '@/components/Inputs';
