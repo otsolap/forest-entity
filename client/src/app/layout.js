@@ -30,8 +30,8 @@ async function getGlobal() {
       const options = { headers: { Authorization: `Bearer ${token}` } };
 
       const [navigationResponse, footerResponse] = await Promise.all([
-        fetchAPI('/navigation', { populate: [config.global.navigation], options }),
-        fetchAPI('/footer', { populate: [config.global.footer], options}),
+        fetchAPI('/navigation', { populate: [config.global.API_NAVIGATION_QUERY], options }),
+        fetchAPI('/footer', { populate: [config.global.API_FOOTER_QUERY], options}),
       ]);
 
       if (!navigationResponse.data || !footerResponse.data) {

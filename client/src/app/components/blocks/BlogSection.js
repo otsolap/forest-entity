@@ -1,8 +1,8 @@
 "use client"; // This is a client component 👈🏽
 import { useState, useEffect } from "react";
 import styles from "@/styles/components/blog.module.scss";
-import BlogItem from "partials/blocks/BlogItem";
-import CustomLink from "partials/util/CustomLink";
+import BlogItem from "src/app/partials/blocks/BlogItem";
+import CustomLink from "src/app/partials/util/CustomLink";
 import axios from "axios";
 import { getStrapiURL } from "@/utils/index";
 import config from '@/utils/config'

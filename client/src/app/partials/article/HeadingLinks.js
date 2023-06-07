@@ -1,5 +1,5 @@
 import ShareButtons from "@/partials/article/ShareButtons";
-import Banner from "components/blocks/Banner";
+import Banner from "src/app/components/blocks/Banner";
 import Link from "next/link";
 import styles from '@/styles/components/headingLinks.module.scss'
 

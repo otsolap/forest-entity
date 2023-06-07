@@ -1,7 +1,7 @@
 import { getDataDependencies } from "@/utils/api"
 import {  getPageData, fetchServicesBannerData } from "@/utils/index"
 import Blocks from "@/components/Blocks"
-import Banner from "components/blocks/Banner"
+import Banner from "src/app/components/blocks/Banner"
 import axios from 'axios'
 
 const DynamicPages = ({ pageData, showServicesBanner, servicesBannerData }) => {

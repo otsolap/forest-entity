@@ -1,5 +1,5 @@
-import NextImage from "partials/util/NextImage"
-import CustomLink from "partials/util/CustomLink"
+import NextImage from "src/app/partials/util/NextImage"
+import CustomLink from "src/app/partials/util/CustomLink"
 import styles from '@/styles/components/articleFooter.module.scss'
 
 const ArticleFooter = ({ author }) => {

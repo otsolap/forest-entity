@@ -1,7 +1,7 @@
 import React, { useState } from "react"
-import BlogItem from "partials/blocks/BlogItem"
-import CategoryLinks from "partials/navigation/CategoryLinks"
-import Pagination from "partials/navigation/Pagination"
+import BlogItem from "src/app/partials/blocks/BlogItem"
+import CategoryLinks from "src/app/partials/navigation/CategoryLinks"
+import Pagination from "src/app/partials/navigation/Pagination"
 import { paginate } from "@/utils/index"
 import styles from "@/styles/components/blog.module.scss";
 

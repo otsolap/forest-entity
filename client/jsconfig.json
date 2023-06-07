@@ -2,12 +2,12 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["/components/*"],
-      "@/content/*": ["/content/*"],
-      "@/utils/*": ["/utils/*"],
-      "@/hooks/*": ["/hooks/*"],
-      "@/partials/*": ["/partials/*"],
-      "@/styles/*": ["/styles/*"],
+      "@/components/*": ["/src/app/components/*"],
+      "@/content/*": ["/src/app/content/*"],
+      "@/utils/*": ["/src/app/utils/*"],
+      "@/hooks/*": ["/src/app/hooks/*"],
+      "@/partials/*": ["/src/app/partials/*"],
+      "@/styles/*": ["/src/app/styles/*"],
       "@/public/*": ["/public/*"]
     }
   }

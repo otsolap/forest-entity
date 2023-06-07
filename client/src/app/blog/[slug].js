@@ -1,11 +1,11 @@
 import axios from "axios"
-import { getStrapiURL } from "utils"
+import { getStrapiURL } from "src/app/utils"
 import Blocks from "@/components/Blocks";
 import styles from '@/styles/pages/blog.module.scss'
 import ArticleHeading from "@/components/articles/ArticleHeading";
 import ArticleFooter from "@/components/articles/ArticleFooter";
 import HeadingLinks from "@/partials/article/HeadingLinks";
-import BlogSection from "components/blocks/BlogSection";
+import BlogSection from "src/app/components/blocks/BlogSection";
 import config from '@/utils/config'
 
 const Article = ({ article, categories, author, banner, relatedItems }) => {
