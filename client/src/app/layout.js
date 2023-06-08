@@ -19,6 +19,13 @@ const bitter = Bitter({
     display: 'swap',
 });
 
+const FALLBACK_SEO = {
+  title: "Strapi Starter Next Blog",
+  description: "Strapi Starter Next Blog",
+}
+
+
+
 async function getGlobal() {
     try {
       const token = process.env.NEXT_PUBLIC_API_TOKEN;

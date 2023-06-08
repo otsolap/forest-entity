@@ -1,4 +1,3 @@
-import { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
 
 export function middleware(request) {
@@ -12,9 +11,9 @@ export function middleware(request) {
     )
         return;
 
-    const pathnameIsMissingLocale = !pathname.startsWith('/');
+    const pathnameIsMissing = !pathname.startsWith('/');
 
-    if (pathnameIsMissingLocale) {
+    if (pathnameIsMissing) {
         return NextResponse.redirect(new URL(`/${pathname}`, request.url));
     }
 }
